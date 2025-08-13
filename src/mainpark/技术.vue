@@ -103,9 +103,16 @@
         <div class="maindiv"><!--主板块-->
 
             <div class="contentdiv">
-                <div class="contentpark">
-                    <p>None</p>
-                </div>
+                <router-link to="/t250813" class="denone">
+                    <div class="contentpark">
+                        <img src="/picture/techno/t250813/home.png" class="contentpicture">
+                        <div class="contenttextdiv">
+                            <p class="contenttitle">我的博客（源码）</p>
+                            <p class="contenttext">本网站的底层代码及其使用的技术涉及（其实lz没有什么技术，都是ai写的）</p>
+                        </div>
+                        <p class="contentanno">2025/08/13</p>
+                    </div>
+                </router-link>
                 
             </div>
             

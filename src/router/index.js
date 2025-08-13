@@ -15,6 +15,7 @@ import NonePage from "@/components/none.vue"
 import p250801 from "@/mainpark/photo/p250801.vue";
 import p250802 from "@/mainpark/photo/p250802.vue";
 import p250518 from "@/mainpark/photo/p250518.vue";
+import t250813 from "@/mainpark/techno/t250813.vue";
 
 const routes = [
   {
@@ -71,6 +72,7 @@ const routes = [
                                                           /*博客网页部分 */
 
 
+
   {
     path:"/p250801",
     name:"p250801",
@@ -88,6 +90,12 @@ const routes = [
     name:"p250518",
     component:p250518,
   },
+
+  {
+    path:"/t250813",
+    name:"t250813",
+    component:t250813,
+  }
 ];
 
 const router = createRouter({
