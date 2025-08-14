@@ -16,6 +16,7 @@ import p250801 from "@/mainpark/photo/p250801.vue";
 import p250802 from "@/mainpark/photo/p250802.vue";
 import p250518 from "@/mainpark/photo/p250518.vue";
 import t250813 from "@/mainpark/techno/t250813.vue";
+import t250814 from "@/mainpark/techno/t250814.vue";
 
 const routes = [
   {
@@ -95,6 +96,12 @@ const routes = [
     path:"/t250813",
     name:"t250813",
     component:t250813,
+  },
+
+  {
+    path:"/t250814",
+    name:"t250814",
+    component:t250814,
   }
 ];
 

@@ -103,12 +103,23 @@
         <div class="maindiv"><!--主板块-->
 
             <div class="contentdiv">
+                <router-link to="/t250814" class="denone">
+                    <div class="contentpark">
+                        <img src="/picture/techno/t250814/githubmyblog.png" class="contentpicture">
+                        <div class="contenttextdiv">
+                            <p class="contenttitle">我的博客（搭建）</p>
+                            <p class="contenttext">介绍仅需域名钱搭建个人博客的方法，不考虑合法性且流量较小（100G博客够用）</p>
+                        </div>
+                        <p class="contentanno">2025/08/14</p>
+                    </div>
+                </router-link>
+
                 <router-link to="/t250813" class="denone">
                     <div class="contentpark">
                         <img src="/picture/techno/t250813/home.png" class="contentpicture">
                         <div class="contenttextdiv">
                             <p class="contenttitle">我的博客（源码）</p>
-                            <p class="contenttext">本网站的底层代码及其使用的技术涉及（其实lz没有什么技术，都是ai写的）</p>
+                            <p class="contenttext">本网站的底层代码及其使用的技术涉及</p>
                         </div>
                         <p class="contentanno">2025/08/13</p>
                     </div>
