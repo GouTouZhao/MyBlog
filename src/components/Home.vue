@@ -36,7 +36,7 @@
   </router-link>
 
   <router-link to="/other">
-    <CardView data-image="/picture/其他主图.jpg">
+    <CardView data-image="/picture/日志主图.jpg">
         <template #header>
         <h1>其他</h1>
         </template>
